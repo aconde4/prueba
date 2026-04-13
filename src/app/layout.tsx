@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "La leyenda de Alerio y Myrina",
   description:
     "Cuentan los antiguos que hubo dos almas nacidas en extremos opuestos del mundo a las que el destino había señalado mucho antes de que ellas mismas aprendieran a pronunciar su propio nombre.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
