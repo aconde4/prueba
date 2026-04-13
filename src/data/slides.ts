@@ -37,7 +37,7 @@ export const slides: Slide[] = [
   // 4 — imagen-01
   {
     type: "image",
-    image: "/images/imagen-01.jpg",
+    image: "/images/imagen-01.png",
     imageCaption: "Ninguno de los dos sabía del otro.",
   },
 
@@ -68,7 +68,7 @@ export const slides: Slide[] = [
   // 9 — imagen-02
   {
     type: "image",
-    image: "/images/imagen-02.jpg",
+    image: "/images/imagen-02.png",
     imageCaption: "Era un lugar hecho para los reconocimientos del alma.",
   },
 
@@ -93,7 +93,7 @@ export const slides: Slide[] = [
   // 12.5 — imagen-07 (los dos en el jardín)
   {
     type: "image",
-    image: "/images/imagen-07.jpg",
+    image: "/images/imagen-07.png",
     imageCaption: "Como si el destino hubiera abierto una rendija para recordarles quiénes eran.",
   },
 
@@ -118,7 +118,7 @@ export const slides: Slide[] = [
   // 16 — imagen-03
   {
     type: "image",
-    image: "/images/imagen-03.jpg",
+    image: "/images/imagen-03.png",
     imageCaption: "No podía tocarla. Pero las palabras permanecían.",
   },
 
@@ -155,7 +155,7 @@ export const slides: Slide[] = [
   // 22 — imagen-04
   {
     type: "image",
-    image: "/images/imagen-04.jpg",
+    image: "/images/imagen-04.png",
     imageCaption: "Empiezan a decidir por mí.",
   },
 
@@ -168,7 +168,7 @@ export const slides: Slide[] = [
   // 23.5 — imagen-09 (Alerio de rodillas)
   {
     type: "image",
-    image: "/images/imagen-09.jpg",
+    image: "/images/imagen-09.png",
     imageCaption: "Si alguna vez encuentro el modo, no habrá mar ni noche que me detenga.",
   },
 
@@ -187,7 +187,7 @@ export const slides: Slide[] = [
   // 25.5 — imagen-08 (Atenea interviene)
   {
     type: "image",
-    image: "/images/imagen-08.jpg",
+    image: "/images/imagen-08.png",
     imageCaption: "No les regaló un milagro. Les dio algo más difícil: claridad.",
   },
 
@@ -206,7 +206,7 @@ export const slides: Slide[] = [
   // 28 — imagen-05
   {
     type: "image",
-    image: "/images/imagen-05.jpg",
+    image: "/images/imagen-05.png",
     imageCaption: "Como guiados por una mano que no se dejaba ver.",
   },
 
@@ -231,7 +231,7 @@ export const slides: Slide[] = [
   // 32 — imagen-06
   {
     type: "image",
-    image: "/images/imagen-06.jpg",
+    image: "/images/imagen-06.png",
     imageCaption: "Solo unos pocos, rarísimos y terribles, nacen primero en el alma.",
   },
 
