@@ -17,8 +17,23 @@ export default function Home() {
 
   const slide = slides[currentSlide];
 
+  const isImageSlide = slide.type === "image";
+
   return (
-    <main className="h-screen w-screen overflow-hidden" style={{ backgroundColor: "var(--color-bg)" }}>
+    <main className="relative h-screen w-screen overflow-hidden" style={{ backgroundColor: "var(--color-bg)" }}>
+      {/* Fondo persistente — solo visible en slides que no son imagen */}
+      {!isImageSlide && (
+        <div className="absolute inset-0 z-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/fondo-texto.png"
+            alt=""
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+      )}
+
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
@@ -26,6 +41,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
+          className="relative z-10"
         >
           {slide.type === "cover" && <CoverSlide onNext={goNext} />}
 
