@@ -21,7 +21,18 @@ export default function TextSlide({ text, act, onNext }: TextSlideProps) {
   const paragraphs = text.split("\n\n");
 
   return (
-    <div className="flex h-screen w-screen flex-col items-center justify-center px-6 sm:px-12 md:px-24 lg:px-48">
+    <div className="relative flex h-screen w-screen flex-col items-center justify-center px-6 sm:px-12 md:px-24 lg:px-48">
+      {/* Background image */}
+      <div className="absolute inset-0 -z-10">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/fondo-texto.png"
+          alt=""
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
+
       <div className="max-w-2xl">
         {act && (
           <motion.p
